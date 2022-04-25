@@ -1,0 +1,1147 @@
+
+body{
+  margin: 0;
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+body a{
+  text-decoration: none;
+}
+
+/*******HOME PAGE******/
+#home{
+  position: relative;
+  background-color: #6610F2;
+  color: #fff;
+  height: 48.125rem;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.nav-bar{
+  font-family: "Ubuntu";
+  position: relative;
+  z-index: 3;
+}
+.brand{
+  font-size: 2.0rem;
+  font-weight: bolder;
+  margin: 3.5rem;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav{
+  margin-left: 15rem;
+  display: inline-block;
+  padding-left: 0;
+
+}
+.nav li{
+  padding: 1.5rem ;
+  padding-right: 0.5rem;
+
+  text-decoration: none;
+  display: inline-block;
+}
+.nav a{
+  padding: 0.8rem;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-bar li a:hover{
+  background-color: #fff;
+  color: #000000;
+
+}
+.contact-btn{
+  font-family: "Ubuntu";
+  display: inline-block;
+  margin-left: 1rem;
+  line-height: 2.2;
+  border: 0;
+  padding: 0 0.625rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 0.313rem;
+  background-color: #ed6bd0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-btn:hover{
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+.brand-img{
+  position: relative;
+  top: 5.5rem;
+  opacity: 0.7;
+
+}
+
+.heading{
+  font-family: "Montserrat";
+
+}
+.main-heading{
+  position: relative;
+  left: 25rem;
+  bottom: 27rem;
+  width: 42%;
+  font-size: 4.063rem;
+
+}
+.sub-heading{
+  position: relative;
+  left: 37rem;
+  bottom: 28rem;
+  font-weight:normal;
+  width: 15%;
+  font-size: 1.25rem;
+}
+.resume{
+  position: relative;
+  left: 39.813rem;
+  bottom: 26.875rem;
+  font-family: "Ubuntu";
+  line-height: 2.2;
+  border: 0;
+
+  padding: 0 0.625rem;;
+  font-size: 1rem;
+  font-weight:400;
+  color: #180A0A;
+  border-radius: 6.25rem;
+  background-color: #fff;
+}
+.resume a{
+  text-decoration: none;
+  color: #000000;
+  padding: 0.375rem;
+}
+.resume:hover{
+  background-color: #ed6bd0;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+.social{
+  position: absolute;
+  top: 20rem;
+  right: 1.25rem;
+  display:grid;
+
+}
+#home .icon{
+  position: relative;
+  margin-bottom: 1.875rem;
+  margin-right: 3.75rem;
+  color: #fff;
+  z-index: 3;
+}
+#home .icon:hover{
+  color: #F24A72;
+  transform: scale(1.35);
+  transition: 400ms;
+}
+.dots{
+  position: relative;
+  left: 65%;
+  bottom: 39%;
+}
+.small-circle{
+  position: absolute;
+  right: 0;
+  top: 19.375rem;
+}
+
+.big-circle{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+/*********SERVICES********/
+
+.services-intro{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: "Montserrat";
+}
+
+.services-intro .line{
+  font-size: 3.123rem;
+}
+
+.services-intro .ser-line1{
+  font-size: 1.563rem;
+  position: relative;
+  bottom: 2.5rem;
+  font-weight:normal;
+}
+
+.services-intro .ser-line2{
+  font-size: 2.5rem;
+  position: relative;
+  left: 25%;
+  top: 4%;
+  bottom: 3.125rem;
+  font-weight: bold;
+  width: 50%;
+  line-height: 4.5rem;
+}
+.container-grid {
+  width: 100%;
+  display: grid;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  grid-template-columns: auto auto auto;
+  background-color: #fff;
+}
+
+.grid-item1{
+  text-align: center;
+  border-style: solid;
+  height: 18.75rem;
+  border-width: 0.063rem;
+  width: 18.75rem;
+  margin-left: 9.375rem;
+
+}
+.grid-item2{
+  text-align: center;
+  border-style: solid;
+  height: 18.75rem;
+  border-width: 0.063rem;
+  width: 18.75rem;
+}
+.grid-item3{
+  text-align: center;
+  border-style: solid;
+  height: 18.75rem;
+  border-width: 0.063rem;
+  width: 18.75rem;
+  margin-right: 9.375rem;
+
+}
+
+.grid-data{
+  width: 15.938rem;
+  height: 12.5rem;
+  margin: 1.25rem;
+
+}
+.grid-data p{
+  font-weight: lighter;
+  margin-top: 3.125rem;
+  font-size: 1.238rem;
+}
+.services-icon{
+  color:#9747FF;
+  margin-top: 1.25rem;
+}
+
+/******** PORTFOLIO PAGE********** */
+.port-background{
+  background-color: #35497A;
+  height: 56.25rem;
+  color: #fff;
+  text-align: center;
+}
+.port-head{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.port-head .port1{
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.438rem;
+  padding-top: 8.75rem;
+  width: 50%;
+  margin-left: 25%;
+}
+.port-head .port2{
+  position: absolute;
+  font-size: 4.375rem;
+  font-weight: 600;
+  margin-left: 27%;
+  width: 37.5rem;
+  line-height: 1.3;
+}
+
+
+/**************Image slide in porfolio***************/
+
+.port-grid{
+  position: relative;
+  top: -17rem;
+  height: 25rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.port-img{
+  margin-right: 1rem;
+  border: 0.125rem solid #fff;
+  position:relative;
+}
+
+.port-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/*Overlay*/
+.port-img .overlay{
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color: #193498;
+  overflow: hidden;
+  transition:0.7s;
+  /* transition-delay: 0.2s; */
+
+}
+.port-img:hover .overlay{
+  width: 65%;
+  opacity: 0.7;
+
+}
+
+/* Text */
+.overlay h3{
+ position:absolute;
+  color: #fff;
+  font-size: 1.5rem;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+}
+
+
+.more-folios button{
+    line-height: 2.6;
+    border-style: solid;
+    padding: 0;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    left: 45%;
+    bottom: 7rem;
+    cursor: pointer;
+
+}
+.more-folios a {
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+}
+.more-folios a:hover{
+  background-color:  #35497A;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+/**********ABOUT ME ********/
+#about-me{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.about-img .img-dots{
+  position: absolute;
+  float: right;
+  right: 10%;
+  }
+.about-img .img-me{
+  position: relative;
+  margin-top: 8.5%;
+  right: 10%;
+  float: right;
+}
+
+.about-data{
+  position: relative;
+  left: 10%;
+  width: 28.125rem;
+  top: 18.75rem;
+  text-align: left;
+}
+.about-data h3{
+  font-size: 2.5rem;
+}
+
+.about-data .about-para{
+  font-size: 1.063rem;
+}
+
+.about-data .resume-download-btn{
+  margin-top: 5rem;
+  width: 9.063rem;
+  padding: 0.313rem 0.938rem;
+  font-size: 0.938rem;
+  line-height: 2.5;
+  border-style: solid;
+  border: 0.063rem;
+  background-color: #6610F2;
+  color: #fff;
+}
+.resume-download-btn a{
+  color: #fff;
+}
+.resume-download-btn:hover{
+  background-color: #398AB9;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+.about-project{
+    position: relative;
+    display: grid;
+    margin-top: 30rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 4rem;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+}
+
+.about-project .total{
+  text-align: center;
+  border-style: solid;
+  height: 9.375rem;
+  border-width: 0.063rem;
+  margin: 1.875rem;
+}
+
+.about-project .total .number{
+  color: #6610F2;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-top: 1.875rem;
+  margin-bottom: 0;
+}
+
+.about-project .total .name{
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 0.625rem;
+}
+
+/********TESTIMONIAL*******/
+#testimonial .background{
+  font-family: 'Montserrat', sans-serif;
+
+  position: relative;
+}
+#testimonial .background .main-background{
+  opacity: 0.8;
+  width: 100%;
+}
+
+.background .quote{
+  position: absolute;
+  font-size: 5.625rem;
+  font-weight: bolder;
+  color: #fff;
+  left: 48%;
+  top: 0;
+
+}
+.background .message{
+  position: absolute;
+  font-size: 1.875rem;
+  width: 56.25rem;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+  left: 15%;
+  top: 32%;
+  user-select: text;
+}
+
+.background .img{
+  position: absolute;
+  bottom: 20%;
+  left: 47.5%;
+}
+.background .name{
+  position: absolute;
+  bottom: 7%;
+  left: 44.5%;
+  color: #fff;
+  width: 9.375rem;
+  font-size: 1.125rem;
+}
+
+.background .designation{
+  position: absolute;
+  bottom: 7%;
+  left: 47%;
+  color: #fff;
+  width: 9.375rem;
+  font-size: 0.875rem;
+}
+
+/*********SKILLS**********/
+#skills{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.skills-container{
+  position: relative;
+  height: 37.5rem;
+}
+.skills-container .skills-text .major{
+  position: absolute;
+  top: 22%;
+  color: #6610F2;
+  font-size: 2.188rem;
+  font-weight: bold;
+  left: 13%;
+  width: 25rem;
+
+}
+
+.skills-container .skills-text .minor{
+  position: absolute;
+  font-size: 0.938rem;
+  font-weight: 400;
+  left: 13%;
+  width: 22.5rem;
+  top: 55%;
+  user-select: text;
+
+}
+/*****SKILLS BAR****/
+.skills-container .skills-bar{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 25rem;
+}
+
+
+.skills-container .skills-item .text{
+    position: relative;
+    top: 2.3rem;
+    font-weight: 500;
+}
+.skills-container .skills-item .per{
+  font-weight: 500;
+  position: relative;
+  left: 79%;
+  top: 0;
+  width: 3.125rem;
+}
+.skills-container .skills-bar .one {
+  position: relative;
+  top: 0;
+  height: 0.25rem;
+  width: 21.875rem;
+  background: rgb(102,16,242);
+  background: linear-gradient(90deg, rgba(102,16,242,1) 90%, rgba(150,149,154,1) 79%);
+}
+.skills-container .skills-bar .two {
+  position: relative;
+  top: 0;
+  height: 0.25rem;
+  width: 21.875rem;
+  background: rgb(102,16,242);
+  background: linear-gradient(90deg, rgba(102,16,242,1) 85%, rgba(150,149,154,1) 79%);
+}
+.skills-container .skills-bar .three {
+  position: relative;
+  top: 0;
+  height: 0.25rem;
+  width: 21.875rem;
+  background: rgb(102,16,242);
+  background: linear-gradient(90deg, rgba(102,16,242,1) 90%, rgba(150,149,154,1) 79%);
+}
+
+
+/*********KNOWN AREA **********/
+#known-area, .area{
+  background-color: #35497A;
+  color: #fff;
+  position: relative;
+  height: 43.75rem;
+  bottom: 0;
+}
+#known-area .area h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  position: absolute;
+  left: 13%;
+  top: 5%;
+  font-weight: bolder;
+}
+#known-area .area .image-background{
+  margin-left: 15%;
+  margin-right: 15%;
+  position:  relative;
+  top: 12rem;
+}
+
+.image-background .dot{
+    position: relative;
+    text-align: center;
+    height: 6.25rem;
+    width: 6.25rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 4.063rem 4.063rem 4.063rem;
+    display: inline-block;
+    }
+
+.dot-img{
+  margin-top: 20%;
+}
+.dot-img:hover{
+  transform: scale(1.23);
+  transition: 400ms;
+}
+
+  /********DISCUSSION ********/
+
+#discuss{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  height: 50rem;
+}
+
+#discuss .discuss-text{
+  position: absolute;
+  left: 18%;
+  top: 5rem;
+
+}
+
+.discuss-text .heading{
+  font-size: 2rem;
+  font-weight: bold;
+  width: 15.625rem;
+  color: #6610F2;
+}
+.address{
+  position: relative;
+  margin-top: 5rem;
+}
+
+.address .icon-grid{
+  display: grid;
+}
+.address .icon-grid .icon{
+  margin-bottom: 3.55rem;
+  color: #6610F2;
+}
+
+.discuss-text .address-grid{
+  position: absolute;
+  display: grid;
+  left: 14%;
+  top: -2.2%;
+}
+.address-area{
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-bottom: 3.2rem;
+  margin-top: 0.4rem;
+  user-select: text;
+}
+#discuss .form{
+  position: absolute;
+  right: 18%;
+  top: 5.5rem;
+}
+
+.form .form-heading{
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 25rem;
+}
+.form-heading .one{
+  margin-bottom: 0;
+  line-height: 2.2rem;
+}
+.form-heading .two{
+  margin-top: 0;
+  line-height: 2.2rem;
+  color: #6610F2;
+}
+.form-fields{
+  position: absolute;
+  margin-top: 5.5rem;
+}
+.field-name{
+  font-size: 0.938rem;
+  font-weight: 500;
+}
+.name,.email-subject,.message{
+  margin-bottom: 2rem;
+
+}
+.name .input-name{
+  width: 25rem;
+  font-size: 0.938rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.125rem solid #000000;
+}
+.email-subject .email,.subject{
+  display: inline-grid;
+}
+.email-subject .input-name1{
+  width: 15.625rem;
+  font-size: 0.938rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.125rem solid #000000;
+}
+.email-subject .input-name2{
+  width: 6.775rem;
+  font-size: 0.938rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0.125rem solid #000000;
+}
+.email-subject .subject{
+  margin-left: 2rem;
+}
+
+
+textarea {
+  width: 100%;
+  height: 9.375rem;
+  padding: 0.75rem 1.25rem;
+  box-sizing: border-box;
+  border: 0.125rem solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #f8f8f8;
+  font-size: 0.938rem;
+  resize: none;
+}
+
+.submit-form .submit{
+  font-weight: 400;
+  width: 4.688rem;
+  text-align: center;
+  padding: 0.438rem;
+  color:#6610F2;
+  font-size: 1.063rem;
+  border: solid;
+  border-radius: 5%;
+  border-width: 0.125rem;
+}
+.submit-form p:hover{
+  background-color: #6610F2;
+  color: #fff;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+/*******FOOTER*********/
+#footer{
+  background-color: #35497A;
+  position: relative;
+  height: 47.5rem;
+  color: #fff;
+}
+#footer .text-block{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 13%;
+  left: 31%;
+}
+.text-block .heading{
+  font-size: 2.813rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.text-block .text{
+  margin-left: 12%;
+  text-align: center;
+  font-size: 0.938rem;
+  font-weight: 200;
+  width: 21.875rem;
+}
+
+.text-block .btn{
+  margin-left: 32%;
+  width: 9.5rem;
+  margin-top: 5rem;
+}
+.text-block .btn p:hover{
+  background-color: #fff;
+  color: #000000;
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.text-block .btn-text{
+    text-align: center;
+    width: 7.5rem;
+    padding: 0 1rem;
+    font-size: 0.875rem;
+    line-height: 3;
+    border-style: solid;
+    border: 0.063rem;
+    background-color: #4D96FF;
+    color: #fff;
+}
+
+.footer-social .footer-nav{
+  position: absolute;
+  bottom: 15%;
+  left: 12%;
+}
+
+.footer-nav .nav-menu{
+  font-family: "Ubuntu";
+  font-weight: 300;
+  position: relative;
+  display: inline-grid;
+  margin-right: 1.563rem;
+  color: #fff;
+}
+.footer-nav .nav-menu:hover{
+  color: yellow;
+  transform: scale(1.2);
+  transition: 400ms;
+}
+
+#footer .footer-icon{
+  position: absolute;
+  bottom: 12.5%;
+  margin-bottom: 2rem;
+  right: 14.5%;
+}
+
+#footer .icon{
+  position: relative;
+  display: inline-grid;
+  margin-left: 2rem;
+  color: #fff;
+}
+#footer .icon:hover{
+  color: #FFC600;
+  transform: scale(1.35);
+  transition: 400ms;
+}
+
+.footer-line{
+  position: relative;
+  top: 42.188rem;
+  width: 80%;
+  left: 9%;
+
+}
+
+.footer-rights{
+  position: relative;
+  text-align: center;
+  top: 42.5rem;
+  width: 80%;
+  left: 9%;
+}
+
+.footer-rights a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+
+}
+.footer-rights a:hover{
+  color: #FFC600;
+}
+
+
+/*********** RESPONSIVE CODING ***********/
+
+@media (max-width:600px){
+
+  #home, #servies, #about-me #contact, #portfolios, #discuss{
+    overflow: hidden;
+  }
+
+  /*******HOME PAGE******/
+  #home{
+    height: 48rem;
+
+  }
+  .nav{
+    margin-left: 65%;;
+    text-align: right;
+    display: inline-grid;
+  }
+  .nav-bar .brand {
+    font-size: 3.2rem;
+    margin-left: 13%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+  }
+  .social{
+    margin-top: 2rem;
+    right:-1.5rem;
+    display:grid;
+    top: 37rem;
+
+  }
+    .contact-btn{
+      margin-left: 69%;
+    }
+    .heading{
+    visibility: hidden;
+    }
+    .brand-img{
+      top: -19rem;
+    }
+
+
+  /* SERVICES */
+
+  .services-intro .line{
+    font-size: 2.123rem;
+    padding-bottom: 1.4rem;
+  }
+  .services-intro .ser-line1{
+    font-size: 1.063rem;
+  }
+  .services-intro .ser-line2{
+    font-size: 1.8rem;;
+    line-height: 2.5rem;
+    margin-bottom: -10%;
+  }
+  .grid-data p{
+    font-size: 1.25rem;
+  }
+  .container-grid {
+    display: inline-block;
+
+  }
+  .grid-item1, .grid-item2, .grid-item3{
+  margin-left: 11%;
+  margin-top: 2.5rem;
+  margin-right: 0;
+  }
+
+  /* PORTFOLIO  */
+  .port-background{
+    height: 35.25rem;
+    color: #fff;
+    width: 100%;
+  }
+  .port-head .port1{
+    font-size: 0.8rem;
+    margin-left: 25%;
+  }
+  .port-head .port2{
+    font-size: 2.5rem;
+    width: 55%;
+    margin-bottom: 0;
+    margin-left: 23%;
+  }
+
+  .port-grid{
+    top: -6rem;
+    display:inline-block;
+    width: 85%;
+    margin-right: 2rem;
+    margin-left: 1.8rem;
+  }
+  .port-img{
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .more-folios button{
+    margin-top: 5rem;
+    left: 33%;
+    line-height: 3.6;
+  }
+  .more-folios a {
+      padding: 1.28rem;;
+  }
+
+  /**********ABOUT ME ********/
+  .about-img .img-dots{
+    float: right;
+    right: 0;
+    }
+  .about-img .img-me{
+    margin-top: 19.5%;
+    width: 100%;
+    right: 0;
+    float: left;
+    }
+    .about-data{
+      width: 90%;
+      left: 3%;
+      top: 3rem;
+    }
+    .about-data h3{
+      font-size: 2rem;
+
+    }
+    .about-data .resume-download-btn{
+      margin-left: 27%;
+    }
+    .about-project{
+      display: block;
+      margin-top: 8rem;
+      width: 50%;
+      margin-left: 31%;
+      margin-right: 0;
+      margin-bottom: 15rem;
+
+      grid-template-columns: auto auto auto;
+    }
+    .about-project .total{
+      height: 9.375rem;
+      width: 8.9rem;
+      margin-right: 0;
+      margin-left: 0.2rem;
+    }
+
+    /********TESTIMONIAL*******/
+    #testimonial .background{
+    display: none;
+    }
+    /*********SKILLS**********/
+    .skills-container{
+      top: -15rem;
+      width: 90%;
+    }
+    .form{
+      margin-left: 20%;
+    }
+    .skills-container .skills-text .major{
+      top: 15%;
+      font-size: 1.88rem;
+      text-align: center;
+      left: 0;
+    }
+    .skills-container .skills-text .minor{
+      left: 27%;
+      top: 45%;
+      width: 60%;
+    }
+    .skills-container .skills-bar{
+      top: 75%;
+      left: 10%;
+      width: 90%;
+    }
+    .skills-container .skills-bar .one{
+      width: 100%
+    }
+    .skills-container .skills-bar .two{
+      width: 100%
+    }
+    .skills-container .skills-bar .three{
+      width: 100%
+    }
+    .skills-container .skills-item .per{
+      left: 92%;
+      width: 2.225rem;
+    }
+    /*********KNOWN AREA **********/
+  #known-area{
+    display: none;
+  }
+
+    /********DISCUSSION ********/
+    #discuss{
+      height: 80rem;
+      margin-bottom: 5rem;
+    }
+
+    #discuss .discuss-text{
+      left: 10%;
+      top: 15rem;
+    }
+      #discuss .discuss-text .heading{
+        visibility: visible;
+
+      }
+    .address{
+      margin-top: 3rem;
+    }
+    .form .form-heading{
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-left: 10%;
+
+    }
+    #discuss .form{
+      /* position: absolute; */
+      left: -20%;
+      margin-bottom: 20rem;
+    }
+    .form-fields{
+      margin-left: 15%;
+      visibility: hidden;
+    }
+    .submit-form .submit{
+      margin-left: 40%;
+        padding: 0.638rem;
+    }
+    /*******FOOTER*********/
+    #footer{
+      margin-top: -38rem;
+    }
+    #footer .text-block{
+      top: 8%;
+      left: 10%;
+      width: 80%;
+    }
+    .text-block .heading{
+      visibility: visible;
+
+      text-align: center;
+    }
+    .text-block .text{
+      margin-left: 0;
+      width: 20.195rem;
+    }
+    .text-block .btn{
+      margin-left: 27%;
+      margin-top: 4rem;
+    }
+    .footer-nav .nav-menu{
+      display: block;
+      margin-right: 1.563rem;
+      color: #fff;
+      padding-top: 1.5rem
+    }
+    #footer .icon{
+      /* position: relative; */
+      display: block;
+      margin-left: 2rem;
+      margin-top: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+    #footer .footer-icon{
+      bottom: 7.5%;
+    }
+
+}
